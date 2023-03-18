@@ -1,0 +1,31 @@
+{
+  "name": "namaste_react_ecommerce",
+  "version": "1.0.0",
+  "description": "my first react code",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IpshitaS/namaste_react_eCommerce.git"
+  },
+  "author": "Ipshita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IpshitaS/namaste_react_eCommerce/issues"
+  },
+  "homepage": "https://github.com/IpshitaS/namaste_react_eCommerce#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
