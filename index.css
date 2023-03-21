@@ -1,33 +1,35 @@
-.topnav {
-  background-color: blue;
-  width: auto;
-  height: 120px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
 }
 
 .logo {
-  background-image: url(./logo.png);
   width: 100px;
-  height: 100px;
-  position: fixed;
-  object-fit: cover;
-  margin-left: 10px;
-  margin-top: 10px;
-  float: left;
 }
 
-.searchBar {
+.card {
   width: 200px;
-  height: 20px;
-  position: fixed;
-  left: 45%;
-  margin-top: 45px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
 }
 
-.userIcon {
-  height: 80px;
-  width: 100px;
-  margin-left: 10px;
-  margin-top: 15px;
-  float: right;
-  color: darkcyan;
+.card > img {
+  width: 100%;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
 }
